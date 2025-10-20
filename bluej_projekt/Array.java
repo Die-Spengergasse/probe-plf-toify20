@@ -11,14 +11,10 @@ public class Array {
     // übergebenen int Array
     public static int arraySum(int[] arr) {
         int rv = 0;
-      for (int i = 0; i < arr.length; i++) {
-            if (arr[i] < rv) {
-                + rv += arr[i];
-            }  
+        for(int i = 0; i < arr.length; i++){
             
         }
-        return rv;
-    }
+
 
     // hier wird das größte Element des Arrays gesucht
     public static int arrayMax(int[] arr) {
@@ -46,9 +42,10 @@ public class Array {
     // gib ein neues Array zurück, aber in der umgedrehten Reihenfolge!
     public static int[] toReversed(int[] arg) {
         int[] rv= new int[arg.length];
-        for(int i = 0; i < arg.length; i++); 
+        for(int i = 0; i < arg.length; i++); {
         rv[i] = arg[arg.length; -1 -i];
     }
     returv rv;}
-    }
+    
+}
 }
