@@ -23,6 +23,9 @@ public class Array {
     // hier wird das kleinste Element des Arrays gesucht
     public static int arrayMin(int[] arr) {
         int rv = Integer.MAX_VALUE;
+        for (int i = 0; i < arr.lenght; i++) {
+            
+        }
         return rv;
     }
 
