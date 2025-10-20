@@ -45,10 +45,10 @@ public class Array {
 
     // gib ein neues Array zurück, aber in der umgedrehten Reihenfolge!
     public static int[] toReversed(int[] arg) {
-        // int[] rv = new int[Array.toReversed];
-        // for (int i = 0; i < Array.toReversed; i++) {
-            // rv[i] = arg[Array.toReversed -1 -i];
-        // }
-        return new int[arg.length];
+        int[] rv= new int[arg.length];
+        for(int i = 0; i < arg.length; i++); 
+        rv[i] = arg[arg.length; -1 -i];
+    }
+    returv rv;}
     }
 }
