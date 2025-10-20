@@ -9,11 +9,13 @@ public class Array {
 
     // Der gesuchte "RV" (return-value) ist hier die Summe aller Zahlen in dem
     // übergebenen int Array
-    public static int arraySum(int[] arr) {
+   public static int arraySum(int[] arr) {
         int rv = 0;
         for(int i = 0; i < arr.length; i++){
-            
-        }
+            rv += arr[i];
+ }
+        return rv;
+}
 
 
     // hier wird das größte Element des Arrays gesucht
@@ -43,9 +45,9 @@ public class Array {
     public static int[] toReversed(int[] arg) {
         int[] rv= new int[arg.length];
         for(int i = 0; i < arg.length; i++); {
-        rv[i] = arg[arg.length; -1 -i];
+        rv[arg.length] = arg[arg.length -1 -i];
     }
-    returv rv;}
-    
+    return rv;
 }
+    
 }
