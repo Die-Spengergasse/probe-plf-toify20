@@ -45,7 +45,7 @@ public class Array {
     public static int[] toReversed(int[] arg) {
         int[] rv= new int[arg.length];
         for(int i = 0; i < arg.length; i++); {
-        rv[arg.length] = arg[arg.length -1 -i];
+        rv[arg.length] = arg[arg.length -1 -arg.length];
     }
     return rv;
 }
